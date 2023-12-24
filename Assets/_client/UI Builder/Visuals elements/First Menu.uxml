@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_client/UI%20Builder/stiles/MenuStile.uss?fileID=7433441132597879392&amp;guid=f299e4dbaed178540be03d5c88ce0bee&amp;type=3#MenuStile" />
+    <ui:VisualElement name="Conteyner" style="flex-grow: 1;">
+        <ui:VisualElement style="flex-grow: 1; left: 500px; flex-basis: auto;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: 920px; justify-content: center; align-items: center; background-color: rgba(36, 36, 36, 0.59);">
+                <ui:Label tabindex="-1" text="Spooky&#10;New Year&apos;s day" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; height: 172px; font-size: 72px; top: 100px; -unity-font-style: bold; color: rgb(207, 0, 21); -unity-font: none;" />
+                <ui:VisualElement name="Buttons" style="flex-grow: 1; justify-content: flex-start; height: auto; width: 523px; top: 220px;">
+                    <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Play" class="menuButton" />
+                    <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Settings" class="menuButton" />
+                    <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" class="menuButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
